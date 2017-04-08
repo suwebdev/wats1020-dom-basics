@@ -30,8 +30,8 @@ p, li {
 }
 #fortune-cookie-text{
   position: absolute;
-  top: 12.25em;
+  top: 11.5em;
   left: 31em;
   margin-right: 35em;
-  margin-left: 35em;
+  margin-left: 2em;
 }
