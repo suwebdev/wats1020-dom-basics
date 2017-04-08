@@ -92,7 +92,13 @@ var generateFortuneCookie = function() {
     var fortuneLiElement = document.createElement("li");  // create li
     fortuneLiElement.innerHTML = fortuneCookieText.innerHTML; // set new li text equal to fortune cookie text
 
-    
+    var previousFortunesContainer = document.getElementById("previous-fortunes-container"); // select previous fortunes container
+    previousFortunesContainer.appendChild(fortuneLiElement); // append fortune cookie text to fortunes container
+
+    // TODO: Select a new (random) fortune cookie saying from the data stored in the
+    // `fortunesList` variable. (HINT: You will use `Math.floor()` and
+    // `Math.random()` to accomplish this.) Use this data to update the
+    // `innerText` of the `#fortune-cookie-text` element.
 
 
 }
