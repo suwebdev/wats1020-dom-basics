@@ -87,7 +87,8 @@ var generateFortuneCookie = function() {
 
     var randomFortune = fortunesList[(Math.floor(Math.random() * fortunesList.length) + 1)]; // get random fortune from array
 
-    
+    fortuneCookieText.innerHTML = randomFortune; // set fortune cookie text to random fortune
 
+  
 
 }
