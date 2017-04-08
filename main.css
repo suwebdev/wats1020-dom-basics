@@ -32,5 +32,6 @@ p, li {
   position: absolute;
   top: 12.25em;
   left: 31em;
-  margin: 0, 35em, 0, 35em;
+  margin-right: 35em;
+  margin-left: 35em;
 }
