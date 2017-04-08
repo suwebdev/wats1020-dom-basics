@@ -53,7 +53,7 @@ var fortunesList = [
     "Nothing astonishes men so much as common sense and plain dealing.",
     "Its amazing how much good you can do if you dont care who gets the credit.",
     "Everyone agrees. You are the best.",
-    "LIFE CONSISTS NOT IN HOLDING GOOD CARDS, BUT IN PLAYING THOSE YOU HOLD WELL.",
+    "Life Consists not in holding Good Cards, but in playing those you hold well.",
     "Jealousy doesn't open doors, it closes them!",
     "It's better to be alone sometimes.",
     "When fear hurts you, conquer it and defeat it!",
@@ -65,7 +65,7 @@ var fortunesList = [
     "Fortune favors the brave."
 ]
 
-
+"Life Consists not in holding Good Cards, but in playing those you hold well.",
 var generateFortuneCookie = function() {
     // This is where your code for the Fortune Cookie generator goes.
     // You will use the fortunesList variable defined lower in this file
@@ -86,7 +86,7 @@ var generateFortuneCookie = function() {
         //    `appendChild()` to append the new `li` element you created above.
         // 4. You should see the previous fortune cookie saying show up in the list.
 
-    // Get random fortune from array by assigning variable to randomFortune
+    // Get random fortune from array by assigning variable to randomFortune and randomizing array with Math.floor(Math.random) method
     var randomFortune = fortunesList[(Math.floor(Math.random() * fortunesList.length) + 1)];
 
     // Set fortune cookie text to random fortune
