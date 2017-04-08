@@ -53,7 +53,7 @@ var fortunesList = [
     "Nothing astonishes men so much as common sense and plain dealing.",
     "Its amazing how much good you can do if you dont care who gets the credit.",
     "Everyone agrees. You are the best.",
-    "LIFE CONSISTS NOT IN HOLDING GOOD CARDS, BUT IN PLAYING THOSE YOU HOLD WELL.",
+    "Life Consists not in holding good cards, but in playing those you hold well.",
     "Jealousy doesn't open doors, it closes them!",
     "It's better to be alone sometimes.",
     "When fear hurts you, conquer it and defeat it!",

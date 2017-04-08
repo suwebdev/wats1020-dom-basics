@@ -3,7 +3,7 @@
 html {
     text-align: center;
     padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Indie Flower',Arial, sans-serif;
     background-color: #63AA9C
 }
 
@@ -30,6 +30,7 @@ p, li {
 }
 #fortune-cookie-text{
   position: absolute;
-  top: 12em;
+  top: 11.5em;
   left: 30em;
+  padding-right: 20.5em;
 }
