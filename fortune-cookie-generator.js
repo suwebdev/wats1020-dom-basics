@@ -89,6 +89,10 @@ var generateFortuneCookie = function() {
 
     fortuneCookieText.innerHTML = randomFortune; // set fortune cookie text to random fortune
 
-  
+    var fortuneLiElement = document.createElement("li");  // create li
+    fortuneLiElement.innerHTML = fortuneCookieText.innerHTML; // set new li text equal to fortune cookie text
+
+    
+
 
 }
