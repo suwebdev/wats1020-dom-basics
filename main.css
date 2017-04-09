@@ -50,6 +50,12 @@ p, li {
 
 .generate-button{
 font-family: 'Indie Flower',Arial, sans-serif;
+padding: 11px;
+font-size: 17px;
+border: 2px solid;
+border-radius: 14px;
+color: rgb(128, 0, 0);
+
 
 }
 #fortune-cookie-text{

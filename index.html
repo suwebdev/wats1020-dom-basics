@@ -6,11 +6,20 @@
         <title>Fortune Cookie Generator</title>
         <meta name="description" content="This page generates fortune cookie sayings.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+       	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
         <script type="text/javascript" src="fortune-cookie-generator.js"></script>
     </head>
     <body>
+      <section id="header">
+                <div class="container-fluid">
+                  <div class="col-md-12 col-xs-12">
+                  </section>
+                </div>
+              </div>
         <h1>Fortune Cookie Generator</h1>
         <p>Welcome, fortune seekers! Call upon the divinatory power of the fortune cookie to read your future and learn your destiny!</p>
         <div class="fortune-cookie-saying-wrapper">
@@ -19,7 +28,7 @@
         </div>
         <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
         <button onclick="generateFortuneCookie()" class="generate-button">
-            Make My Fortune!
+            <b>Make My Fortune!</b>
         </button>
         <hr>
         <h2>Previous Fortunes</h2>
