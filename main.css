@@ -4,6 +4,7 @@ html {
     text-align: center;
     padding: 2em;
     font-family: 'Indie Flower',Arial, sans-serif;
+
   /*background: rgba(143,184,211,1);*/
   background: -moz-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%)));
@@ -13,6 +14,7 @@ html {
   background: linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
   background-size: 160%;
+  color: rgb(128, 0, 0);
     /*background-color: #63AA9C*/
 }
 
@@ -44,6 +46,11 @@ p, li {
     background-repeat: no-repeat;
     z-index: 1;
     background-position: center;
+}
+
+.generate-button{
+font-family: 'Indie Flower',Arial, sans-serif;
+
 }
 #fortune-cookie-text{
   position: absolute;
