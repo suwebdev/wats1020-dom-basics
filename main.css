@@ -4,9 +4,14 @@ html {
     text-align: center;
     padding: 2em;
     font-family: 'Indie Flower',Arial, sans-serif;
-    background-image: url("images/buddha-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgba(143,184,211,1);
+  background: -moz-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(143,184,211,1)), color-stop(100%, rgba(0,36,93,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(-11,1,46,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
+  background: linear-gradient(135deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
     /*background-color: #63AA9C*/
 }
 
