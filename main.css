@@ -12,7 +12,7 @@ html {
   background: -ms-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
   background: linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
-  background-size: 140%;
+  background-size: 160%;
     /*background-color: #63AA9C*/
 }
 
