@@ -6,15 +6,17 @@ html {
     font-family: 'Indie Flower',Arial, sans-serif;
 
   /*background: rgba(143,184,211,1);*/
-  background: -moz-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%)));
-  background: -webkit-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
-  background: -o-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
-  background: -ms-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
-  background: linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%);
+  background: -moz-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%) no-repeat center center;
+  background: -webkit-gradient(left top, right bottom, color-stop(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%))) no-repeat center center;
+  background: -webkit-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%) no-repeat center center;
+  background: -o-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%) no-repeat center center;
+  background: -ms-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%) no-repeat center center;
+  background: linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%) no-repeat center center;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
-  background-size: 160%;
+  /*background: no-repeat center center;*/
   color: rgb(128, 0, 0);
+  min-height: 100%;
+  background-size: cover;
     /*background-color: #63AA9C*/
 }
 
