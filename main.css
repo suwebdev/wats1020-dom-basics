@@ -1,10 +1,9 @@
 /* Fortune Cookie Generator Styles */
-
+/*------- gradient background for entire page-------*/
 html {
-    text-align: center;
-    padding: 2em;
-    font-family: 'Indie Flower',Arial, sans-serif;
-
+  text-align: center;
+  padding: 2em;
+  font-family: 'Indie Flower',Arial, sans-serif;
   /*background: rgba(143,184,211,1);*/
   background: -moz-linear-gradient(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%) no-repeat center center;
   background: -webkit-gradient(left top, right bottom, color-stop(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%))) no-repeat center center;
@@ -22,24 +21,15 @@ html {
     /*background-color: #63AA9C*/
 }
 
+/*------text styling-------*/
 p, li {
-    font-size: 18px;
-    list-style-type: none;
-    text-align: center;
-
-
+  font-size: 18px;
+  list-style-type: none;
+  text-align: center;
 }
 
-/*.img-thumbnail{
-  background-image: url("images/buddha-image.jpg");
-  position: absolute;
-  top: 5em;
-  left: 5em;
-}
-*/
-
-
-.fortune-cookie-saying-wrapper {
+/*-----div for fortune cookie------*/
+  .fortune-cookie-saying-wrapper {
 
   width: 55em;
   /*border: 2px solid #666;*/
@@ -57,16 +47,17 @@ p, li {
   background-position: center;
 }
 
+/*----button-----*/
 .generate-button{
-font-family: 'Indie Flower',Arial, sans-serif;
-padding: 11px;
-font-size: 17px;
-border: 2px solid;
-border-radius: 14px;
-color: rgb(128, 0, 0);
-
-
+  font-family: 'Indie Flower',Arial, sans-serif;
+  padding: 11px;
+  font-size: 17px;
+  border: 2px solid;
+  border-radius: 14px;
+  color: rgb(128, 0, 0);
 }
+
+/*------fortune cookie text-------*/
 #fortune-cookie-text{
   position: absolute;
   top: 3.25em;
