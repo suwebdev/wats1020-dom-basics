@@ -1,78 +1,48 @@
 /* Fortune Cookie Generator Styles */
 /*------- gradient background for entire page-------*/
 body {
-  text-align: center;
   padding: 2em;
   font-family: 'Indie Flower', Arial, sans-serif;
-  /*background: rgba(143,184,211,1);*/
-  background: -moz-linear-gradient(
-      135deg,
-      rgba(231, 212, 0, 1) -10%,
-      rgba(124, 29, 2, 1) 100%
-    )
-    no-repeat center center;
-  background: -webkit-gradient(left top, right bottom, color-stop(135deg, rgba(231,212,0,1) -10%, rgba(124,29,2,1) 100%))) no-repeat center center;
-  background: -webkit-linear-gradient(
-      135deg,
-      rgba(231, 212, 0, 1) -10%,
-      rgba(124, 29, 2, 1) 100%
-    )
-    no-repeat center center;
-  background: -o-linear-gradient(
-      135deg,
-      rgba(231, 212, 0, 1) -10%,
-      rgba(124, 29, 2, 1) 100%
-    )
-    no-repeat center center;
-  background: -ms-linear-gradient(
-      135deg,
-      rgba(231, 212, 0, 1) -10%,
-      rgba(124, 29, 2, 1) 100%
-    )
-    no-repeat center center;
-  background: linear-gradient(
-      135deg,
-      rgba(231, 212, 0, 1) -10%,
-      rgba(124, 29, 2, 1) 100%
-    )
-    no-repeat center center;
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
-  /*background: no-repeat center center;*/
-  color: rgb(128, 0, 0);
-  min-height: 100%;
-  background-size: cover;
-  resize: both;
-  overflow: auto;
-  /*background-color: #63AA9C*/
+  background: #24a1f4;
 }
 
 /*------text styling-------*/
+
+header {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
 p,
 li {
   font-size: 18px;
   list-style-type: none;
   text-align: center;
 }
+.center-content {
+  display: flex;
+  justify-content: center;
+}
 
 /*-----div for fortune cookie------*/
+
 .fortune-cookie-saying-wrapper {
-  width: 55em;
-  /*border: 2px solid #666;*/
-  padding: 8em;
-  margin: 1em;
   background-image: url('images/blank-Fortune-Cookie.png');
-  /*top: 10em;
-  right: 10em;*/
-  position: relative;
-  top: 1em;
-  left: 4em;
-  background-size: 40em;
   background-repeat: no-repeat;
-  z-index: 1;
+  background-size: 38em;
+  padding: 7em;
+  margin: 1em;
   background-position: center;
 }
 
 /*----button-----*/
+.button-section {
+  display: flex;
+  justify-content: center;
+}
 .generate-button {
   font-family: 'Indie Flower', Arial, sans-serif;
   padding: 11px;
@@ -80,13 +50,23 @@ li {
   border: 2px solid;
   border-radius: 14px;
   color: rgb(128, 0, 0);
+  display: flex;
+  justify-content: center;
 }
 
 /*------fortune cookie text-------*/
-#fortune-cookie-text {
-  position: absolute;
-  top: 3.25em;
-  left: 23em;
-  margin-right: 19em;
-  margin-left: 4em;
+.fortune {
+  display: grid;
+  grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+  grid-gap: 5px;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  margin: 0 0 1rem 8rem;
+}
+p#fortune-cookie-text {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  margin: 0 auto;
 }
